@@ -108,4 +108,52 @@ def get_ntrtnveg_data(df, lst):
     plt.show()
     return fig_ntrtn
  
+def join_dataframes(data_dict, factor_list):
 
+    cdc_df_dict = dict()
+    df_list = list()
+    
+    for idx, val in enumerate(factor_list):
+        cdc_df_dict[val] = data_dict[factor_list[idx]]
+    
+    count = 1
+
+    if 'StateAbbr' in cdc_df_dict:
+        for key, val in cdc_df_dict.items():
+            cdc_df_dict[key] = val.rename(columns={'Data_Value': '{}'.format(factor_list[count-1])})
+            cdc_df_dict[key] = pd.DataFrame(cdc_df_dict[key].groupby('StateAbbr').mean()[key])
+            if count <= len(cdc_df_dict) and count > 0:
+                curr_df = cdc_df_dict[factor_list[count-1]][factor_list[count-1]]
+                df_list.append(curr_df)
+        
+            count +=1
+    else:
+        rename_list = ['Obesity', 'Inactivity', 'Lack Fruit', 'Lack Veggies']
+        for key, val in cdc_df_dict.items():
+            cdc_df_dict[key] = val.rename(columns={'Data_Value': '{}'.format(rename_list[count-1])})
+            cdc_df_dict[key] = pd.DataFrame(cdc_df_dict[key].groupby('LocationAbbr').mean()[rename_list[count-1]])
+            if count <= len(cdc_df_dict) and count > 0:
+                curr_df = cdc_df_dict[factor_list[count-1]][rename_list[count-1]]
+                df_list.append(curr_df)
+            # cdc_df_dict[key] = val.rename(columns={factor_list[count-1]: '{}'.format(rename_list[count-1])}) 
+            count +=1
+            
+
+    return df_list
+    
+
+
+def make_heat_map(df):
+    
+    corr = df.corr()
+    corr_hlth_var_Fig = plt.figure(figsize=(6.4*1.4, 4.8*1.1))
+    ax = sns.heatmap(
+        corr, 
+        vmin=-1, vmax=1, center=0,
+        cmap=sns.diverging_palette(20,250, n=200),
+        square=True
+    )
+    ax.set_title('Correlation Among Health Variables', pad=20, fontsize=18)
+    ax.set_yticklabels(ax.get_yticklabels(), rotation=0, horizontalalignment='right')
+    plt.show()
+    return corr_hlth_var_Fig
