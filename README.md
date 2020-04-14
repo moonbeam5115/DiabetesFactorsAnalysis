@@ -38,18 +38,24 @@ In many studies, inactivity has been shown to be a contributing factor to illnes
 
 ![Percent FrtVeg USA](/img/PercentFrtVegUSA.png)
 
-Nutrition is another widely studied but not well understood lifestyle factor. It is a very complex area of study, which must take into account not only absolute quantities but relative as well. If one consumes sugar but also has a relatively high amount of fat and some protein, the sugar is not processed by the body in the same way as if one would only be consuming sugar. There are many synergistic effects that must be taken into account when analyzing food intake. Water is also very important in maintaining and ensuring efficient digestion, temperature regulation, and many more vital bodily functions.  
+Nutrition is another widely studied but not well understood lifestyle factor. It is a very complex area of study, which must take into account not only absolute quantities but relative as well. If one consumes sugar but also has a relatively high amount of fat and some protein, the sugar is not processed by the body in the same way as if one would only be consuming sugar. There are many synergistic effects that must be taken into account when analyzing food intake. Water is also very important in maintaining and ensuring efficient digestion, temperature regulation, and many more vital bodily functions.
 &nbsp;  
 &nbsp;  
 &nbsp;  
-&nbsp;  I was interested in seeing the relationship among: Inactivity, Lack of Sleep, Fruit Consumption, and Vegetable Consumption. For this I constructed a correlation matrix visualized as a heatmap. The graph shows the strength of relationships, based on hue, for each of the factors of interest. This correlation matrix was constructed from the Nutrition, Physical Activity, and Obesity dataset provided by the CDC.
+&nbsp;  
+I was interested in seeing the relationship among: Inactivity, Obesity, Fruit Consumption, and Vegetable Consumption. For this I constructed a correlation matrix visualized as a heatmap. The graph shows the strength of relationships, based on hue, for each of the factors of interest. This correlation matrix was constructed from the Nutrition, Physical Activity, and Obesity dataset provided by the CDC.
 
 ![Corr Hlth Var 01](/img/CorrHealthVar01.png)
 
+&nbsp;
+&nbsp;
 
+In the heatmap shown below, the data was taken from the 500 Cities Dataset. This dataset included a few more measures that I found interesting to look at with regards to diabetes. The measures I focused on were: Inactivity, Lack of Sleep, Binge Drinking, Smoking, Diabetes, and Obesity.
 
 ![Corr Hlth Var 02](/img/CorrHlthVar02.png)
 
+&nbsp;
+&nbsp;
 
 ![Drinking Diabetes Joint](/img/DrinkingDiabetesJoint.png)
 
