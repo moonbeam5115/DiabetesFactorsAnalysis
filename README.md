@@ -34,9 +34,11 @@ As seen from the graph, Texas has the highest percent of their population suffer
 
 ![Percent Inactive USA](/img/PercentInactiveUSA.png)
 
+In many studies, inactivity has been shown to be a contributing factor to illness. This may have to do with the numerous biochemical molecules, that are released during exercise but are absent during inactivity, which play a vital role in regulating weight, stress, metabolism, and other physiological factors. 
 
 ![Percent FrtVeg USA](/img/PercentFrtVegUSA.png)
 
+Nutrition is another widely studied but not well understood lifestyle factor. It is a very complex area of study, which must take into account not only absolute quantities but relative as well. If one consumes sugar but also has a relatively high amount of fat and some protein, the sugar is not processed by the body in the same way as if one would only be consuming sugar. There are many synergistic effects that must be taken into account when analyzing food intake. Water is also very important in maintaining and ensuring efficient digestion, temperature regulation, and many more vital bodily functions. 
 
 ![Corr Hlth Var 01](/img/CorrHealthVar01.png)
 
