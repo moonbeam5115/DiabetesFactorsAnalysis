@@ -1,6 +1,6 @@
 # An Analysis on the Relationships between Behavioral/Physiological Factors and Diabetes
 
-I have an interest in sports, nutrition, and how to maintain certain habits in order to increase athletic performance and overall bodily health. I also have family members who suffer from diabetes and want to be able to better inform them about how to manage their blood sugar. In this analysis, I dive into a few factors that I believe would have an impact on diabetes prevalence in the United States. My goal is to stimulate further curiosity and investigation into the factors that have the most impact on diabetes.
+I have an interest in sports, nutrition, and how to maintain certain habits in order to increase athletic performance and overall bodily health. I also have family members who suffer from diabetes and want to be able to better inform them about how to manage their blood sugar and lifestyle choices. In this analysis, I dive into a few factors that I believe would have an impact on diabetes prevalence in the United States. My goal is to stimulate further curiosity and investigation into the factors that have the most impact on diabetes.
 
 # Data Sources
 
@@ -26,9 +26,11 @@ I wanted to further analyze the dataset, so I chose a few factors to look at: In
 
 ![Total Data Distr](/img/TotalDataDistr.png)
 
+Next, I was interested in viewing the percent obesity in certain US states. I chose the states with the highest population size because I thought they may have relatively higher diabetes prevalence than states with a smaller population. I also included New Jersey because I wanted to have a comparison with my home state.   
 
 ![Percent Obese USA](/img/PercentObeseUSA.png)
 
+As seen from the graph, Texas has the highest percent of their population suffering from obesity. The state with the lowest percent of their population suffering from obesity seems to be California. This means that population size may not be indicative of obesity prevalence. 
 
 ![Percent Inactive USA](/img/PercentInactiveUSA.png)
 
