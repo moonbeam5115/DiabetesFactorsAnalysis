@@ -38,3 +38,14 @@ I have an interest in sports, nutrition, and how to maintain certain habits in o
 * Exercise can lower insulin resistance and should be incorporated into a holistic treatment for people suffering from diabetes
 * Although the relationship between nutrition and diabetes is complex, the most harmful products to consume are carbonated beverages
 * Other factors like lack of sleep seem to have a high correlation with diabetes incidence - why?
+
+# Next Steps
+* Gather more accurate information about lifestyle choices
+
+* Gather information about economic burden due to diabetes
+
+* Figure out what kind of effect exercise and better nutrition would have on diabetes related healthcare costs
+
+* Adjust the analysis to include the population size
+
+
