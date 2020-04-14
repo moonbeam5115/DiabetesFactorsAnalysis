@@ -40,7 +40,9 @@ In many studies, inactivity has been shown to be a contributing factor to illnes
 
 Nutrition is another widely studied but not well understood lifestyle factor. It is a very complex area of study, which must take into account not only absolute quantities but relative as well. If one consumes sugar but also has a relatively high amount of fat and some protein, the sugar is not processed by the body in the same way as if one would only be consuming sugar. There are many synergistic effects that must be taken into account when analyzing food intake. Water is also very important in maintaining and ensuring efficient digestion, temperature regulation, and many more vital bodily functions.  
 &nbsp;
-I was interested in seeing the relationship among: Inactivity, Lack of Sleep, Fruit Consumption, and Vegetable Consumption. For this I constructed a correlation matrix visualized as a heatmap. The graph shows the strength of relationships, based on hue, for each of the factors of interest. This correlation matrix was constructed from the Nutrition, Physical Activity, and Obesity dataset provided by the CDC.
+&nbsp;
+&nbsp;
+&nbsp;I was interested in seeing the relationship among: Inactivity, Lack of Sleep, Fruit Consumption, and Vegetable Consumption. For this I constructed a correlation matrix visualized as a heatmap. The graph shows the strength of relationships, based on hue, for each of the factors of interest. This correlation matrix was constructed from the Nutrition, Physical Activity, and Obesity dataset provided by the CDC.
 
 ![Corr Hlth Var 01](/img/CorrHealthVar01.png)
 
