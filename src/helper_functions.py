@@ -118,7 +118,7 @@ def join_dataframes(data_dict, factor_list):
     
     count = 1
 
-    if 'StateAbbr' in cdc_df_dict:
+    if len(cdc_df_dict)>4 :
         for key, val in cdc_df_dict.items():
             cdc_df_dict[key] = val.rename(columns={'Data_Value': '{}'.format(factor_list[count-1])})
             cdc_df_dict[key] = pd.DataFrame(cdc_df_dict[key].groupby('StateAbbr').mean()[key])
