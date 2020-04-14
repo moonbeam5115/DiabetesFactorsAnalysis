@@ -17,7 +17,11 @@ I gathered 2 sources of data from the Center for Disease Control & Prevention (C
 
 # Exploratory Data Analysis
 
+In order to make sense of the data from the CDC, I performed some exploratory data analysis. First, from the Nutrition, Physical Activity, and Obesity dataset, I wanted to see the distribution of the actual data collected. I wanted to draw some parallels to the idea of normal distributions and how most of the random variables in nature are randomly distributed. As can be seen below, the distribution for the Inactivity data resembles a normal distribution. 
+
 ![Inactive Data Distr](/img/InactiveDataDistr.png)
+
+I wanted to further analyze the dataset, so I chose a few factors to look at: Inactivity, Obesity, Lack of Fruit Consumpiton, and Lack of Vegetable Consumption. The following picture shows the distribution of data for the above mentioned factors of interest. 
 
 
 ![Total Data Distr](/img/TotalDataDistr.png)
@@ -58,5 +62,4 @@ I gathered 2 sources of data from the Center for Disease Control & Prevention (C
 * Figure out what kind of effect exercise and better nutrition would have on diabetes related healthcare costs
 
 * Adjust the analysis to include the population size
-
 
