@@ -6,6 +6,11 @@ An analysis on the relationships between behavioral/physiological factors and di
 * Exercise helped to lower insulin resistance in previously sedentary older adults with abdominal obesity at risk for diabetes (Resistance training and aerobic) - Harvard Study
 * Cross sectional, prospective and retrospective studies have found significant association between physical inactivity and Type 2 Diabetes
 
+![Inactive Data Distr](/img/InactiveDataDistr.png)
+
+
+![Total Data Distr](/img/TotalDataDistr.png)
+
 
 ![Percent Obese USA](/img/PercentObeseUSA.png)
 
@@ -14,12 +19,6 @@ An analysis on the relationships between behavioral/physiological factors and di
 
 
 ![Percent FrtVeg USA](/img/PercentFrtVegUSA.png)
-
-
-![Inactive Data Distr](/img/InactiveDataDistr.png)
-
-
-![Total Data Distr](/img/TotalDataDistr.png)
 
 
 ![Corr Health Var 01](/img/CorrHealthVar01.png)
@@ -32,3 +31,9 @@ An analysis on the relationships between behavioral/physiological factors and di
 
 
 ![Total Correlation 01](/img/TotalCorrelation01.png)
+
+
+* More studies should be conducted to analyze the impact of lifestyle on type 2 Diabetes: Exercise, Sleep, Nutrition, Stress Levels, Drug Use
+* Exercise can lower insulin resistance and should be incorporated into a holistic treatment for people suffering from diabetes
+* Although the relationship between nutrition and diabetes is complex, the most harmful products to consume are carbonated beverages
+* Other factors like lack of sleep seem to have a high correlation with diabetes incidence - why?
