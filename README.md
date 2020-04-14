@@ -1,5 +1,5 @@
-# DiabetesFactorsAnalysis
-An analysis on the relationships between behavioral/physiological factors and diabetes
+# An Analysis on the Relationships between Behavioral/Physiological Factors and Diabetes
+
 
 * In 2018, 34.2 million Americans, or 10.5% of the population, had diabetes
 * The estimated total economic cost of diagnosed diabetes in 2012 is $245 billion, a 41% increase from our previous estimate of $174 billion (in 2007 dollars)
