@@ -21,7 +21,7 @@ An analysis on the relationships between behavioral/physiological factors and di
 ![Percent FrtVeg USA](/img/PercentFrtVegUSA.png)
 
 
-![Corr Health Var 01](/img/CorrHealthVar01.png)
+![Corr Health Var 01](/img/CorrHealthVar01.png =250x250)
 
 
 ![Corr Hlth Var 02](/img/CorrHlthVar02.png)
