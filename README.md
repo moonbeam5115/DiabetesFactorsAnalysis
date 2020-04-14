@@ -15,6 +15,8 @@ I gathered 2 sources of data from the Center for Disease Control & Prevention (C
 * Exercise helped to lower insulin resistance in previously sedentary older adults with abdominal obesity at risk for diabetes (Resistance training and aerobic) - Harvard Study
 * Cross sectional, prospective and retrospective studies have found significant association between physical inactivity and Type 2 Diabetes
 
+# Exploratory Data Analysis
+
 ![Inactive Data Distr](/img/InactiveDataDistr.png)
 
 
@@ -41,6 +43,7 @@ I gathered 2 sources of data from the Center for Disease Control & Prevention (C
 
 ![Total Correlation 01](/img/TotalCorrelation01.png)
 
+# Conlusion
 
 * More studies should be conducted to analyze the impact of lifestyle on type 2 Diabetes: Exercise, Sleep, Nutrition, Stress Levels, Drug Use
 * Exercise can lower insulin resistance and should be incorporated into a holistic treatment for people suffering from diabetes
