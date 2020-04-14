@@ -1,6 +1,14 @@
 # An Analysis on the Relationships between Behavioral/Physiological Factors and Diabetes
 
-I have an interest in sports, nutrition, and how to maintain certain habits in order to increase athletic performance and overall bodily health. I also have family members who suffer from diabetes and want to be able to better inform them about how to manage their blood sugar. In this analysis, I dive into a few factors that I believe would have an impact on diabetes prevalence in the United States. My goal is to stimulate further curiosity and investigation into the factors that have the most impact on diabetes. 
+I have an interest in sports, nutrition, and how to maintain certain habits in order to increase athletic performance and overall bodily health. I also have family members who suffer from diabetes and want to be able to better inform them about how to manage their blood sugar. In this analysis, I dive into a few factors that I believe would have an impact on diabetes prevalence in the United States. My goal is to stimulate further curiosity and investigation into the factors that have the most impact on diabetes.
+
+# Data Sources
+
+I gathered 2 sources of data from the Center for Disease Control & Prevention (CDC):
+* Nutrition, Pysical Activity, and Obesity in US States - 2011-2018
+* 500 Cities Data - 2017
+
+# Backgroun Information
 
 * In 2018, 34.2 million Americans, or 10.5% of the population, had diabetes
 * The estimated total economic cost of diagnosed diabetes in 2012 is $245 billion, a 41% increase from our previous estimate of $174 billion (in 2007 dollars)
