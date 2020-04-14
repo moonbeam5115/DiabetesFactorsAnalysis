@@ -59,8 +59,13 @@ In the heatmap shown below, the data was taken from the 500 Cities Dataset. This
 
 ![Drinking Diabetes Joint](/img/DrinkingDiabetesJoint.png)
 
+&nbsp;
+&nbsp;
 
 ![Total Correlation 01](/img/TotalCorrelation01.png)
+
+&nbsp;
+&nbsp;
 
 # Conlusion
 
