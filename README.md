@@ -8,7 +8,7 @@ I gathered 2 sources of data from the Center for Disease Control & Prevention (C
 * Nutrition, Pysical Activity, and Obesity in US States - 2011-2018
 * 500 Cities Data - 2017
 
-# Backgroun Information
+# Background Information
 
 * In 2018, 34.2 million Americans, or 10.5% of the population, had diabetes
 * The estimated total economic cost of diagnosed diabetes in 2012 is $245 billion, a 41% increase from our previous estimate of $174 billion (in 2007 dollars)
