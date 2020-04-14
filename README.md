@@ -21,7 +21,7 @@ An analysis on the relationships between behavioral/physiological factors and di
 ![Percent FrtVeg USA](/img/PercentFrtVegUSA.png)
 
 
-![Corr Health Var 01](/img/CorrHealthVar01.png =250x250)
+![Corr Health Var 01](/img/CorrHealthVar01.png)
 <img src="https://github.com/moonbeam5115/DiabetesFactorsAnalysis/blob/master/img/CorrHealthVar01.png" width="48">
 
 ![Corr Hlth Var 02](/img/CorrHlthVar02.png)
