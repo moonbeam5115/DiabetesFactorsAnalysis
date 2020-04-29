@@ -56,16 +56,22 @@ In the heatmap shown below, the data was taken from the 500 Cities Dataset. This
 
 &nbsp;
 &nbsp;
+ 
+It is important to note that there was a NEGATIVE correlation between binge drinking prevalence and diabetes prevalence. There have been studies showing that while moderate alcohol use can increase blood sugar, heavy alcohol use results in a significant drop in blood sugar and can be lethal. For this reason, many doctors advise their diabetic patients to monitor their alcohol intake more closely. Further investigation should be done that takes into consideration other reasons for this negative correlation. 
 
 ![Drinking Diabetes Joint](/img/DrinkingDiabetesJoint.png)
 
 &nbsp;
 &nbsp;
 
+When viewed next to each other, these graphs can give us an idea of overall relatedness between the lifestyle factors and diabetes prevalence. Using this information, models can be constructed that could then be used to predict diabetes prevalence given a set of lifestyle factors. This could be used by governments and public officials to determine what kind of funding to allocate for nutrition and health services, as well as how to best fund programs that could curtail the economic effects of diabetes on our healthcare system. 
+
 ![Total Correlation 01](/img/TotalCorrelation01.png)
 
 &nbsp;
 &nbsp;
+
+Data analysis can be a very powerful tool that helps give us insights to questions that are otherwise very difficult to analyze. The advancement of computers, the internet, and other technologies have provided us with the ability to visualize and study complex relationships among factors of interest. These tools and abilities can help guide us in asking the proper questions and coming to the best possible conclusions in order to provide predictive power to those who implement these techniques in real world applications.
 
 # Conlusion
 
