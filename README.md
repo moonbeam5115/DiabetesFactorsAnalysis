@@ -71,7 +71,7 @@ When viewed next to each other, these graphs can give us an idea of overall rela
 &nbsp;
 &nbsp;
 
-Data analysis can be a very powerful tool that helps give us insights to questions that are otherwise very difficult to analyze. The advancement of computers, the internet, and other technologies have provided us with the ability to visualize and study complex relationships among factors of interest. These tools and abilities can help guide us in asking the proper questions and coming to the best possible conclusions in order to provide predictive power to those who implement these techniques in real world applications.
+Data analysis can be a very powerful tool that gives us insights to questions that are otherwise very difficult to analyze. The advancement of computers, the internet, and other technologies have provided us with the ability to visualize and study complex relationships among factors of interest. These tools and abilities can guide us in asking the proper questions and coming to the best possible conclusions in order to provide predictive power to those who implement these techniques in real world applications.
 
 # Conlusion
 
