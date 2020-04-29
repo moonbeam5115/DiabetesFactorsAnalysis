@@ -157,3 +157,103 @@ def make_heat_map(df):
     ax.set_yticklabels(ax.get_yticklabels(), rotation=0, horizontalalignment='right')
     plt.show()
     return corr_hlth_var_Fig
+
+
+
+def plotdist(df):
+    inactive_dist_fig_01 = plt.figure()
+    ax = sns.distplot(
+        df['Data_Value'], norm_hist=False, kde=False, bins=50, hist_kws={'alpha': 1}
+    )
+
+    ax.set_title('Inactivity Data Distribution', pad=25, fontsize=20)
+    ax.set_xlabel('Percent', fontsize=16)
+    ax.set_ylabel('Count', fontsize=16)
+    plt.show()
+
+    return inactive_dist_fig_01
+
+def distsubplots(dictionary):
+    factor_list = ['Inactivity', 'Lack of Sleep', 'Drinking', 'Smoking', 'Diabetes', 'Obesity']
+    distr_tot_fig, axs = plt.subplots(2, 3, sharex='col', sharey='row',figsize=(6.4*1.5, 4.8*1.2))
+    distr_tot_fig.suptitle('Data Distribution for Select Health Variables', fontsize=20)
+    distr_tot_fig.subplots_adjust(hspace=0.4, wspace=0.2)
+    distr_tot_fig.text(0.04, 0.5, 'Count', va='center', rotation='vertical', fontsize=15)
+    distr_tot_fig.text(0.5, 0.04, 'Percent', ha='center', rotation='horizontal', fontsize=15)
+
+    count = 0
+    for i in range(2):
+        for j in range(3):
+            axs[i,j].hist(dictionary[factor_list[count]]['Data_Value'], bins=20, color='skyblue')
+            axs[i,j].set_title('{}'.format(factor_list[count]))
+            count += 1
+    mycountx = 0
+    mycounty = 0
+    for ax in axs.flat:
+        if mycountx == 0 or mycountx == 3:
+            #ax.set(ylabel='Count')
+            pass
+
+        if mycounty == 1 and mycountx >= 0:
+            #ax.set(xlabel='Percent')
+            pass
+        mycountx += 1
+        
+        if mycountx == 3:
+            mycounty += 1
+    
+    return distr_tot_fig
+
+
+
+def corrsubplots(df):
+    factor_list2 = ['Inactivity', 'Lack of Sleep', 'Drinking', 'Obesity', 'Diabetes', 'Smoking']
+
+    tot_corr_fig2, axs2 = plt.subplots(2, 3, sharex='col', sharey='row',figsize=(6.4*2, 4.8*1.8))
+    tot_corr_fig2.suptitle('Correlation Amongst Select \n Health Variables', fontsize=22)
+    tot_corr_fig2.subplots_adjust(hspace=0.5, wspace=0.1)
+    tot_corr_fig2.text(0.04, 0.5, '% Population Diabetic', va='center', rotation='vertical', fontsize=18)
+
+    mygrid = plt.GridSpec(2, 3, wspace=0.2)
+
+    count = 0
+    for i in range(2):
+        for j in range(3):
+            if axs2[i,j] == axs2[1,1]:
+                count+=1
+                axs2[1,1].set_visible(False)
+                
+                continue
+            axs2[i,j].scatter(x=df[factor_list2[count]], y=df['Diabetes'], color='skyblue')
+            axs2[i,j].set_title('{}'.format(factor_list2[count]), fontsize=16)
+            count += 1
+    mycountx = 0
+    mycounty = 0
+
+
+    woot = axs2[0,1].get_xaxis()
+    woot.set_visible(True)
+    axs2[0,1].tick_params(axis='x', reset=True, length=0.0)
+
+
+
+    for ax in axs2.flat:
+        # if mycountx == 0 or mycountx == 3:
+        #     ax.set(ylabel='Percent Diabetic')
+        if mycounty == 0 and mycountx == 1:
+            ax.set_xlabel('% of Population', fontsize=14)
+            
+            
+
+        if mycounty == 1 and mycountx >= 0:
+            ax.set_xlabel("% of Population", fontsize=14)
+        mycountx += 1
+        
+            
+        
+        if mycountx == 3:
+            mycounty += 1
+
+    plt.tight_layout(pad=8.0, h_pad=3.75, w_pad=2.75)
+
+    return tot_corr_fig2
